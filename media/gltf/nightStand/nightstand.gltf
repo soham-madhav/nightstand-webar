@@ -1,0 +1,682 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                10,
+                11,
+                12
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Lamp_Lamp_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Lamp",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                100,
+                100
+            ],
+            "translation" : [
+                0,
+                49.8033561706543,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Nightstand_Nightstand_0"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Nightstand",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                100,
+                100
+            ],
+            "translation" : [
+                0,
+                49.8033561706543,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Vase_Vase Glass_0"
+        },
+        {
+            "mesh" : 3,
+            "name" : "Vase_Vase_0"
+        },
+        {
+            "children" : [
+                4,
+                5
+            ],
+            "name" : "Vase",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                100,
+                100
+            ],
+            "translation" : [
+                0,
+                49.8033561706543,
+                0
+            ]
+        },
+        {
+            "children" : [
+                1,
+                3,
+                6
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "f0227b01c31142edb082f7785904f63c.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "Lamp",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Nightstand",
+            "normalTexture" : {
+                "index" : 4,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 5,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 6,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Vase_Glass",
+            "normalTexture" : {
+                "index" : 7,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 8,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    0.06269054859876633
+                ],
+                "baseColorTexture" : {
+                    "index" : 9,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Vase",
+            "normalTexture" : {
+                "index" : 10,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 11,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 12,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Lamp_Lamp_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Nightstand_Nightstand_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Vase_Vase Glass_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Vase_Vase_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 3
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        },
+        {
+            "source" : 6
+        },
+        {
+            "source" : 7
+        },
+        {
+            "source" : 8
+        },
+        {
+            "source" : 9
+        },
+        {
+            "source" : 10
+        },
+        {
+            "source" : 11
+        },
+        {
+            "source" : 12
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Lamp_emissive",
+            "uri" : "Lamp_emissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lamp_normal",
+            "uri" : "Lamp_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lamp_metallicRoughness",
+            "uri" : "Lamp_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lamp_baseColor",
+            "uri" : "Lamp_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Nightstand_normal",
+            "uri" : "Nightstand_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Nightstand_metallicRoughness",
+            "uri" : "Nightstand_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Nightstand_baseColor",
+            "uri" : "Nightstand_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_Glass_normal",
+            "uri" : "Vase_Glass_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_Glass_metallicRoughness",
+            "uri" : "Vase_Glass_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_Glass_baseColor",
+            "uri" : "Vase_Glass_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_normal",
+            "uri" : "Vase_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_baseColor",
+            "uri" : "Vase_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Vase_metallicRoughness",
+            "uri" : "Vase_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1413,
+            "max" : [
+                -0.016859380528330803,
+                0.19251196086406708,
+                0.4919189214706421
+            ],
+            "min" : [
+                -0.257195383310318,
+                -0.04782405123114586,
+                0.09225329011678696
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1413,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1413,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5568,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1550,
+            "max" : [
+                0.3029080629348755,
+                0.171921968460083,
+                0.09280718863010406
+            ],
+            "min" : [
+                -0.25259435176849365,
+                -0.1842520833015442,
+                -0.4967265725135803
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1550,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1550,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 4188,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 494,
+            "max" : [
+                0.22643685340881348,
+                0.019488850608468056,
+                0.20510758459568024
+            ],
+            "min" : [
+                0.0646328330039978,
+                -0.14231513440608978,
+                0.08968178182840347
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 494,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 494,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 2304,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 864,
+            "max" : [
+                0.22108720242977142,
+                0.014139216393232346,
+                0.22439055144786835
+            ],
+            "min" : [
+                0.06998246908187866,
+                -0.1369655430316925,
+                0.0935230478644371
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 864,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 864,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 2850,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 16956,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16956,
+            "byteOffset" : 16956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11304,
+            "byteOffset" : 33912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11136,
+            "byteOffset" : 45216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18600,
+            "byteOffset" : 56352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18600,
+            "byteOffset" : 74952
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12400,
+            "byteOffset" : 93552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8376,
+            "byteOffset" : 105952
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5928,
+            "byteOffset" : 114328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5928,
+            "byteOffset" : 120256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3952,
+            "byteOffset" : 126184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4608,
+            "byteOffset" : 130136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10368,
+            "byteOffset" : 134744
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10368,
+            "byteOffset" : 145112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6912,
+            "byteOffset" : 155480
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5700,
+            "byteOffset" : 162392
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 168092,
+            "uri" : "nightstand.bin"
+        }
+    ]
+}
